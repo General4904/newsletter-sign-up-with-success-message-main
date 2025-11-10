@@ -179,10 +179,11 @@ li::before {
     .background {
         width: 100%;
         background-size: cover;
+        border-radius: 0 0 2em 2em;
     }
 
     .card main {
         width: 100%;
-        padding: 0 2em;
+        padding: 0 1em;
     }
 }
