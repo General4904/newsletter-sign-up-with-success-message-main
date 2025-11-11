@@ -96,6 +96,18 @@ li::before {
     justify-self: flex-start;
 }
 
+.mail .test {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* ensure the flex row fills the available width so space-between works */
+}
+
+.mail .test .error {
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+
 .email,
 .submit {
     margin-bottom: 1em;
@@ -109,9 +121,11 @@ li::before {
     border: 1px solid hsl(0, 0%, 58%);
     padding: 3px 0 3px 1em;
     font-family: inherit;
+    display: block;
 }
 
 .submit {
+    display: block;
     border: hsl(234, 29%, 20%);
     background-color: hsl(234, 29%, 20%);
     color: hsl(0, 0%, 100%);
